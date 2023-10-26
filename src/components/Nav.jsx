@@ -7,12 +7,14 @@ const Nav = () => {
       <div>
         <header>
           <nav className="flex items-center justify-center">
-            <img
-              className="absolute top-10 left-40"
-              width={200}
-              src={hult_logo}
-              alt="Hult Logo"
-            />
+            <Link to="/">
+              <img
+                className="absolute top-10 left-40"
+                width={200}
+                src={hult_logo}
+                alt="Hult Logo"
+              />
+            </Link>
             <ul className="flex pt-10 text-xl pl-80 space-x-11">
               <li>
                 <Link to="/About" className="hover:text-pink-500">
@@ -36,8 +38,12 @@ const Nav = () => {
               </li>
             </ul>
             <div className="flex pt-10 pl-11">
-              <button className="px-6 py-3 text-white bg-pink-500 rounded-full hover:shadow-lg">
-                <a href="https://tailwindcss.com/ " target="_blank" rel="noreferrer">
+              <button className="px-6 py-2 text-white bg-pink-500 rounded-full hover:shadow-lg">
+                <a
+                  href="https://tailwindcss.com/ "
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   <span>Apply Now</span>
                 </a>
               </button>
