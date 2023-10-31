@@ -13,7 +13,7 @@ const Events = () => {
                 key={index}
                 className="relative p-4 bg-white rounded shadow-lg"
               >
-                <div className="absolute w-2 h-2 -ml-1 bg-white rounded-full left-1/2 top-5"></div>
+                <div className="absolute bg-white rounded-full left-1/2 top-5"></div>
                 <div className="absolute w-2 h-2 -ml-1 bg-white rounded-full left-1/2 bottom-5"></div>
                 <img
                   src={hult}
